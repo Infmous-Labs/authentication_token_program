@@ -2,14 +2,14 @@
 seeds = false
 skip-lint = false
 [programs.localnet]
-tokenauth = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+token_auth = "DQHN7u5tejZPTCLmqaH8HqkLMXHx83CZbzyv7BAbhn8D"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
 cluster = "Localnet"
-wallet = "/home/adrou/.config/solana/id.json"
+wallet = "/home/adrou/Desktop/solana_stuff/wallet.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
